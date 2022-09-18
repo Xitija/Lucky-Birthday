@@ -1,6 +1,7 @@
 const dateOfBirth = document.querySelector("#date-of-birth");
 const luckyNumber = document.querySelector("#lucky-number");
 const checkButton = document.querySelector("#check");
+const clearButton = document.querySelector("#clear");
 const output = document.querySelector("#output");
 
 function checkBirthDateIsLucky(){
@@ -27,3 +28,8 @@ function calculateSum(dob){
 }
 
 checkButton.addEventListener("click",checkBirthDateIsLucky)
+clearButton.addEventListener("click",() => {
+    output.innerText = "";
+    luckyNumber.value = "";
+    dateOfBirth.value="";
+})

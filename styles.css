@@ -50,7 +50,6 @@ input[type="number"] {
 }
 
 button {
-    display: block;
     margin: auto;
     padding: 0.5rem;
     background-color: black;
@@ -77,4 +76,8 @@ small {
 
 span {
     color: #FF8400;
+}
+
+#clear {
+    background-color: white;
 }

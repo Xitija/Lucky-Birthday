@@ -11,7 +11,7 @@ function checkBirthDateIsLucky(){
 
     if((calculateSum(dateOfBirth.value))%luckyNumber.value === 0){
         console.log("You are lucky");
-        output.innerText= "Your Birthday is Lucky!";
+        output.innerText= "Your Birthday is Lucky! 🥳";
     } else {
         output.innerText="Your Birthday is not Lucky Enough";
     }
